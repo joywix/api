@@ -1,0 +1,116 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th>#</th>
+    <th>Type</th>
+    <th>HTTP Method</th>
+    <th>Route</th>
+    <th>Example</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <th scope="row">1</th>
+    <td>create</td>
+    <td>POST</td>
+    <td>/api/file/create</td>
+    <td>/api/file/create?params</td>
+  </tr>
+  <tr>
+    <th scope="row">2</th>
+    <td>update</td>
+    <td>POST</td>
+    <td>/api/file/update/:id</td>
+    <td>/api/file/update/1?params</td>
+  </tr>
+  <tr>
+    <th scope="row">3</th>
+    <td>show all</td>
+    <td>POST</td>
+    <td>/api/files</td>
+    <td>/api/files</td>
+  </tr>
+  <tr>
+    <th scope="row">4</th>
+    <td>show one</td>
+    <td>POST</td>
+    <td>/api/file/:id</td>
+    <td>/api/file/1</td>
+  </tr>
+  </tbody>
+</table>
+<h1>Params:</h1>
+<table class="table">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Type</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>:tenant_id</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:user_id</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:customer_id</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:portal_id</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:status</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:sys_state</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:who_created</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:who_updated</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:first_name, null: false</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:last_name, null: false</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:phone_mobile</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:referral</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:email</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:keywords</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>:is_processed</td>
+    <td>Boolean</td>
+  </tr>
+  <tr>
+    <td>:people_id</td>
+    <td>Integer</td>
+  </tr>
+  </tbody>
+</table>

@@ -1,0 +1,26 @@
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Api docs</h3>
+          <span class="pull-right">
+            <ul class="nav panel-tabs">
+              <li class="active"><a href="#tab1" data-toggle="tab">Peoples</a></li>
+              <li><a href="#tab2" data-toggle="tab">Files</a></li>
+              <li><a href="#tab3" data-toggle="tab">Stats</a></li>
+            </ul>
+          </span>
+        </div>
+        <div class="panel-body">
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab1"><%= render 'api/persons/documentation' %></div>
+            <div class="tab-pane" id="tab2"><%= render 'api/files/documentation' %></div>
+            <div class="tab-pane" id="tab3"><p>Persons: <%= Person.all.count %></p><p>Files: <%= Document.all.count %></p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
